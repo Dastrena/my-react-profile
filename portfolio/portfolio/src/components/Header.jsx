@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
@@ -56,9 +56,9 @@ const Header = ({ toggleTheme, theme }) => {
     <HeaderWrapper>
       <Nav>
         <NavLinks>
-          <NavLink to="/about">Про мене</NavLink>
-          <NavLink to="/my-city">Моє місто</NavLink>
-          <NavLink to="/my-future">Моє майбутнє</NavLink>
+          <NavLink to="/my-react-profile/">Про мене</NavLink>
+          <NavLink to="/my-react-profile/my-city">Моє місто</NavLink>
+          <NavLink to="/my-react-profile/my-future">Моє майбутнє</NavLink>
         </NavLinks>
         <ThemeToggle onClick={toggleTheme}>
           {theme === "light" ? "🌙" : "☀️"}

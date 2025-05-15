@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+﻿import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -165,7 +165,7 @@ const AboutMe = () => {
   return (
     <BackgroundWrapper>
       <Container>
-        <ProfileImage src="/images/daryna.jpg" alt="Дарина" showQR={showQR} />
+        <ProfileImage src="./images/daryna.jpg" alt="Дарина" showQR={showQR} />
         <h1>Привіт! Я Дарина 👋</h1>
 
         <Section>
@@ -215,7 +215,7 @@ const AboutMe = () => {
               >
                 <h2>Скануй, щоб перейти в Telegram 📱</h2>
                 <QRImage
-                  src="/images/6.jpg"
+                  src="./images/6.jpg"
                   alt="QR код Telegram"
                 />
                 <CloseButton onClick={() => setShowQR(false)}>Закрити</CloseButton>

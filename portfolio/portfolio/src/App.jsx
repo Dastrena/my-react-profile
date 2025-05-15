@@ -83,9 +83,9 @@ const App = () => {
           <Header toggleTheme={toggleTheme} theme={theme} />
           <Content>
             <Routes>
-              <Route path="/about" element={<AboutMe />} />
-              <Route path="/my-city" element={<MyCity />} />
-              <Route path="/my-future" element={<MyFuture />} />
+              <Route path="/my-react-profile/" element={<AboutMe />} />
+              <Route path="/my-react-profile/my-city" element={<MyCity />} />
+              <Route path="/my-react-profile/my-future" element={<MyFuture />} />
             </Routes>
           </Content>
           <Footer />

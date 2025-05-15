@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
@@ -113,8 +113,8 @@ const MyFuture = () => {
       <MemeSection>
         <MemeTitle>😅 Трішки правди про майбутнє</MemeTitle>
         <MemeGallery>
-          <MemeImage
-            src="https://scontent.fiev27-1.fna.fbcdn.net/v/t51.75761-15/486106018_17974573850832212_2123897619959657455_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vzmykFXJKk4Q7kNvwE3MHR2&_nc_oc=AdlYvZtS_z4pdBGoNugE3BKs2Us9nSHbBvR-Fm_NB9zrmf09pXJccb_cZ7ksbh_NPCE&_nc_zt=23&_nc_ht=scontent.fiev27-1.fna&_nc_gid=wcCgZVrZDZHNN5s2QAHSJQ&oh=00_AfLIJADFE06siHBS8npBGX0V94_oyBasreopVgtkOaVieQ&oe=6825A1F5"
+          <MemeImage 
+            src= "./images/1.png"
             alt="Мем 1"
             loading="lazy"
             initial="hidden"
@@ -123,7 +123,7 @@ const MyFuture = () => {
             variants={imageVariants("left")}
           />
           <MemeImage
-            src="/images/2.jpg" alt="Мем 2"
+            src="./images/2.jpg" alt="Мем 2"
             loading="lazy"
             initial="hidden"
             whileInView="visible"

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
 
@@ -61,10 +61,10 @@ const MyCity = () => {
 
       <h2>🖼 Фотогалерея Обухова</h2>
       <ImageCarousel>
-        <CityImage src="/images/4.jpg" alt="Обухів 1" />
-        <CityImage src="/images/5.jpg" alt="Обухів 2" />
-        <CityImage src="/images/7.jpg" alt="Обухів 3" />
-        <CityImage src="/images/8.jpg" alt="Обухів 4" />
+        <CityImage src="./images/4.jpg" alt="Обухів 1" />
+        <CityImage src="./images/5.jpg" alt="Обухів 2" />
+        <CityImage src="./images/7.jpg" alt="Обухів 3" />
+        <CityImage src="./images/8.jpg" alt="Обухів 4" />
       </ImageCarousel>
     </Container>
   );
